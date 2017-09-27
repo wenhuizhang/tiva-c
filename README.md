@@ -21,3 +21,14 @@ $ make
 $ lm4flash gcc/blinky.bin
 # Great success!
 ```
+
+Tiva GDBthernet
+
+gdbthernet.c causes various of lib calls 
+
+capture_phy_regs() get indirect acccess to PHY registers via the Ethernet MAC
+
+DMA for GDB, openOCD and RPI
+
+Ref:
+14.07 . routing ethernet over GDB and SWD for glitching 
